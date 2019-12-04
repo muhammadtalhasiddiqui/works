@@ -1,0 +1,172 @@
+
+
+@media only screen and (max-width: 700px) {
+  .App {
+    text-align: center;
+  }
+  .break2{
+    display:none;
+  }
+  .App-logo {
+    height: 40vmin;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #09d3ac;
+  }
+  
+  .input{
+    border-radius: 2em;
+    height:20px;
+    padding-left: 10px;  
+  }
+  
+  .input1, .input2, .input3, .input4  {
+    border-radius: 2em;
+    height:20px;
+    padding-left: 10px;  
+  }
+  
+  .spn{
+    margin-left: 20px;
+  
+  }
+  
+  .p_1{
+    display:inline;
+    margin-left:20px ;
+  }
+  .btn{
+    border-radius: 0.5em;
+background-color: skyblue ;
+width:100px;
+height:30px;
+margin-top: 20px;
+
+}
+
+}
+
+@media only screen and (min-width:700px) {
+
+  .App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #09d3ac;
+  }
+  .break{
+    display:none;
+  }
+  .break2{
+    display:block;
+  }
+ 
+  .btn{
+    border-radius: 0.5em;
+background-color: skyblue ;
+width:200px;
+margin-top: 20px;
+height:40px
+}
+ 
+  .input{
+    border-radius: 0.1em;
+    border-color: #09d3ac;
+    height:20px;
+    padding-left: 10px;  
+    margin-left: 20px;
+    width : 70px;
+  }
+  
+  .input1{
+    border-radius: 0.1em;
+    border-color: #09d3ac;
+    height:20px;
+    padding-left: 10px;  
+    width : 400px;
+  
+  }
+  .input2{
+    border-radius: 0.1em;
+    border-color: #09d3ac;
+    height:20px;
+    padding-left: 10px;  
+    width : 350px;
+    margin-top: 20px;
+  
+  }
+
+  .input3{
+    border-radius: 0.1em;
+    border-color: #09d3ac;
+    height:20px;
+    padding-left: 10px;  
+    width : 100px;
+    margin: 20px 0 0 0;
+  
+  }
+
+  .input4{
+    border-radius: 0.1em;
+    border-color: #09d3ac;
+    height:20px;
+    padding-left: 10px;  
+    width : 600px;
+    margin: 20px 0 0 0;
+  
+  }
+
+  .spn{
+   
+    margin-left: 20px;
+  
+  }
+  
+  .p_1{
+    display:inline;
+    margin-left: 100px;
+    /* margin-left:20px ; */
+  }
+
+  .p_2 .p_4{
+    display:inline;
+margin-left:20px ;
+  }
+.p_4{
+margin-top: 30px;
+  }
+
+ .p_3{
+    display:inline;
+margin-left:70px ;
+  }
+}
+
